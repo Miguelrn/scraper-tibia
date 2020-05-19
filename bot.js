@@ -6,14 +6,18 @@ const Discord = require('discord.js');
 const Table = require('cli-table');
 const client = new Discord.Client();
 const {token, channel_id} = require('./auth.json');
+const database = require('./database.json');
+//https://discord.js.org/#/docs/main/v11/class/TextChannel?scrollTo=send
+
 
 const pool = new Pool({
-    user: "postgres",
-    host: "localhost",
-    database: "Tibia",
-    password: "pomer",
-    port: "5432"
+  user: database.user,
+  host: database.host,
+  database: database.database,
+  password: database.password,
+  port: database.port
 });
+
 
 class discord_bot {
 
