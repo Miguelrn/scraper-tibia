@@ -1,0 +1,22 @@
+{
+  "name": "readhtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "cloudscraper": "^4.5.0",
+    "discord.js": "^11.4.0",
+    "moment": "^2.24.0",
+    "momentjs": "^2.0.0",
+    "parse5": "^5.1.1",
+    "pg": "^7.17.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
