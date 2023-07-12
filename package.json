@@ -7,7 +7,7 @@
     "cli-table": "^0.3.1",
     "cloudscraper": "^4.5.0",
     "discord.js": "^11.4.0",
-    "moment": "^2.29.2",
+    "moment": "^2.29.4",
     "momentjs": "^2.0.0",
     "parse5": "^5.1.1",
     "pg": "^7.17.0",
